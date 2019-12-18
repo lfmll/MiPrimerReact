@@ -1,7 +1,38 @@
+.App-Fondo{
+  background-color: rgb(15, 144, 59);
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .App {
   text-align: center;
 }
-
+.Header-Benefit-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  -ms-flex:0 0 auto;
+  flex: 0 0 auto;
+  padding-right: .150rem;
+  padding-left: .50rem;
+}
+.Header-Benefit-image img{
+  max-width: 100%;
+}
+.Header-Benefit-content{
+  flex-basis: 70%;
+  max-width: 70%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
 .App-logo {
   height: 40vmin;
 }
